@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2dce15eecc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="Images/icons/icon.png">
+    <title>XYZ</title>
+</head>
+
+<body>
+    <!-- Pre-loader -->
+    <div class="preloader">
+        <svg class="ip" viewBox="0 0 256 128" width="256px" height="128px" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#5ebd3e" />
+                    <stop offset="33%" stop-color="#ffb900" />
+                    <stop offset="67%" stop-color="#f78200" />
+                    <stop offset="100%" stop-color="#e23838" />
+                </linearGradient>
+                <linearGradient id="grad2" x1="1" y1="0" x2="0" y2="0">
+                    <stop offset="0%" stop-color="#e23838" />
+                    <stop offset="33%" stop-color="#973999" />
+                    <stop offset="67%" stop-color="#009cdf" />
+                    <stop offset="100%" stop-color="#5ebd3e" />
+                </linearGradient>
+            </defs>
+            <g fill="none" stroke-linecap="round" stroke-width="16">
+                <g class="ip__track" stroke="#ddd">
+                    <path d="M8,64s0-56,60-56,60,112,120,112,60-56,60-56" />
+                    <path d="M248,64s0-56-60-56-60,112-120,112S8,64,8,64" />
+                </g>
+                <g stroke-dasharray="180 656">
+                    <path class="ip__worm1" stroke="url(#grad1)" stroke-dashoffset="0"
+                        d="M8,64s0-56,60-56,60,112,120,112,60-56,60-56" />
+                    <path class="ip__worm2" stroke="url(#grad2)" stroke-dashoffset="358"
+                        d="M248,64s0-56-60-56-60,112-120,112S8,64,8,64" />
+                </g>
+            </g>
+        </svg>
+    </div>
+    <!-- End of the pre-loader -->
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- nav-bar code -->
+    <nav class="nav-bar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Group <span>19302</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#our-team" class="menu-btn">Our Team</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section code -->
+    <Section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/1951027/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/1951027/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/1951027/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+            </div>
+        </div>
+    </Section>
+
+    <!-- about section start -->
+    <Section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Us</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="Images/prototype.jpg" alt="This is a photo of our prototype">
+                </div>
+                <div class="column right">
+                    <div class="text">We are Group 19302 and we aim to <span class="typing"></span></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti rerum dolorem
+                        quisquam corporis, explicabo exercitationem pariatur earum tenetur dolorum quam, ipsa tempora
+                        eum! Tenetur, quasi dolor! Ad cupiditate, saepe deleniti rem harum fuga eaque dignissimos,
+                        dolorem nam magnam libero ipsa beatae. Atque libero ad ab. Eveniet esse aliquam quae quaerat ut
+                        repellendus fugiat vero assumenda eaque, recusandae in ad nulla quas laboriosam iusto nesciunt.
+                        Voluptas sit consequuntur facere aspernatur error possimus, nobis facilis exercitationem,
+                        perferendis aut alias aliquam distinctio!<br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quia libero quam tempore
+                        illum repudiandae eligendi temporibus, quasi blanditiis dolor, qui dolorum repellendus ipsa
+                        voluptatibus? Accusantium ipsam ipsa inventore? Perferendis.
+                    </p>
+                    <a href="#" target="_blank">View
+                        Project's Poster</a>
+                </div>
+            </div>
+
+        </div>
+    </Section>
+
+
+    <!-- Our Team section start -->
+    <Section class="our-team" id="our-team">
+        <div class="max-width">
+            <h2 class="title">Our Team</h2>
+            <div class="our-team-content">
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img class="main" src="Images/hassan.jpg" alt="">
+                            <span class="name">Ahmed Hassan</span>
+                            <span class="contact-details">
+                                <a href="mailto: ahmed.1920003@stemgharbiya.moe.edu.eg" target="_blank"> <i
+                                        class="fas fa-envelope con"></i></a>
+                                <a href="tel: +201006111224" target="_blank"> <i
+                                        class="fas fa-phone con"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img class="main" src="Images/emad.jpg" alt="">
+                            <span class="name">Mohamed Emad</span>
+                            <span class="contact-details">
+                                <a href="mailto: mohammed.1920031@stemgharbiya.moe.edu" target="_blank"> <i
+                                        class="fas fa-envelope con"></i></a>
+                                <a href="tel: +201090825014" target="_blank"> <i
+                                        class="fas fa-phone con"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img class="main" src="Images/omar.jpg" alt="">
+                            <span class="name">Omar Ramy</span>
+                            <span class="contact-details">
+                                <a href="mailto: omar.1920020@stemgharbiya.moe.edu.eg" target="_blank"> <i
+                                        class="fas fa-envelope con"></i></a>
+                                <a href="tel: +201028520707" target="_blank"> <i
+                                        class="fas fa-phone con"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </Section>
+
+
+    <!-- Contact us secttion start -->
+    <Section class="contact" id="contact">
+        <div class="max-width">
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">XYZ</div>
+                    <p> This is a slogan!</p>
+                    <hr>
+                    <p class="note">* Information listed on this website is accurate and representative of the person
+                        mentioned. However, some discrepancies
+                        might occur as a result of human error. If you find any, please use the form to contact us.</p>
+                </div>
+
+                <div class="column right">
+                    <h1>Leave a message!</h1>
+                    <form action="https://formspree.io/f/xwkzjrwv" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required name="Name" autocomplete="off">
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="E-mail" rrequired name="E-mail" autocomplete="on">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" name="Subject" autocomplete="off">
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required name="Message"
+                                autocomplete="off"></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </Section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>
+            Created By <a href="#">Ahmed Hassan, Mohamed Emad, and Omar Ramy</a> | <span
+                class="far fa-copyright"></span> 2021/2022 all rights
+            reserved.
+        </span>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
