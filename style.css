@@ -249,7 +249,7 @@ section {
 .home {
     display: flex;
     background: #111;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -266,6 +266,11 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.home-content div {
+    align-items: center;
+    justify-items: center;
 }
 
 .home iframe {
