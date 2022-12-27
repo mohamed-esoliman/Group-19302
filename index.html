@@ -14,7 +14,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/png" sizes="96x96" href="Images/icons/icon.png">
-    <title>XYZ</title>
+    <title>Detecting the Effect of CO2 Level elevation on Temperature and Soil Moisture Content</title>
 </head>
 
 <body>
@@ -77,9 +77,12 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="graphs">
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1973845/charts/1?bgcolor=%23ffffff&color=%23dc143c&dynamic=true&results=60&title=CO2+Concentration+through+Time&type=line&xaxis=Time&yaxis=CO2+Concentration+%28ppm%29&yaxismax=1400&yaxismin=200"></iframe>
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1973845/charts/2?bgcolor=%23ffffff&color=%23dc143c&dynamic=true&results=60&title=Temperature+through+Time&type=line&xaxis=Time&yaxis=Temperature+%28%C2%B0C%29&yaxismax=30&yaxismin=20"></iframe>
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1973845/charts/3?bgcolor=%23ffffff&color=%23dc143c&dynamic=true&results=60&title=Soil+Moisture+through+Time&type=line&xaxis=Time&yaxis=Soil+Moisture+%28%25%29&yaxismax=58&yaxismin=54"></iframe>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                        src="https://thingspeak.com/channels/1973845/charts/1?bgcolor=%23ffffff&color=%23008b8b&dynamic=true&results=60&title=CO2+Concentration+through+Time&type=line&xaxis=Time&yaxis=CO2+Concentration+%28ppm%29&yaxismax=1500&yaxismin=0"></iframe>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                        src="https://thingspeak.com/channels/1973845/charts/2?bgcolor=%23ffffff&color=%23008b8b&dynamic=true&results=60&title=Temperature+through+Time&type=line&xaxis=Time&yaxis=Temperature+%28%C2%B0C%29"></iframe>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+                        src="https://thingspeak.com/channels/1973845/charts/3?bgcolor=%23ffffff&color=%23008b8b&dynamic=true&results=60&title=Soil+Moisture+through+Time&type=line&xaxis=Time&yaxis=Soil+Moisture+%28%25%29"></iframe>
                 </div>
                 <div class="relations">
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;"
@@ -106,18 +109,52 @@
                 <div class="column right">
                     <div class="text">We are Group 19302 and we aim to <span class="typing"></span></div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti rerum dolorem
-                        quisquam corporis, explicabo exercitationem pariatur earum tenetur dolorum quam, ipsa tempora
-                        eum! Tenetur, quasi dolor! Ad cupiditate, saepe deleniti rem harum fuga eaque dignissimos,
-                        dolorem nam magnam libero ipsa beatae. Atque libero ad ab. Eveniet esse aliquam quae quaerat ut
-                        repellendus fugiat vero assumenda eaque, recusandae in ad nulla quas laboriosam iusto nesciunt.
-                        Voluptas sit consequuntur facere aspernatur error possimus, nobis facilis exercitationem,
-                        perferendis aut alias aliquam distinctio!<br>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quia libero quam tempore
-                        illum repudiandae eligendi temporibus, quasi blanditiis dolor, qui dolorum repellendus ipsa
-                        voluptatibus? Accusantium ipsam ipsa inventore? Perferendis.
+                        Due to its several consequences in different fields, climate change is considered a
+                        first-priority challenge worldwide.
+                        Among the main contributors to this widespread issue are human activities that result in the
+                        elevation of greenhouse
+                        gases level, such as CO2, in the atmosphere. One vital step to being able to address the
+                        problem is to better
+                        understand it, and that is why it is essential to build projects that simulate the relationship
+                        between climate change
+                        causes and impacts. Many solutions have been tried to detect small changes in climate change,
+                        such as NASA's NOAA and
+                        AIRS satellites. However, due to the high cost of these projects, they are not widely available.
+                        Our project, on the
+                        other hand, is an inexpensive way to detect the effect of CO2 level on air temperature and
+                        then soil moisture. The
+                        project's purpose is to get an approach that enables us to collect climate data, analyze it, and
+                        give a prospective
+                        solution with regard to data analysis. To build our prototype, a chemical reaction whose product
+                        is gaseous CO2 was
+                        implemented into a closed acrylic box containing a climate-detecting IIOT circuit composed of an
+                        MQ-135 Air Quality
+                        Sensor, DHT-22 Temperature Sensor, and a Resistive Soil Moisture Sensor, all connected to an
+                        ESP-32 board. This
+                        measuring system was connected to a Graphical User Interface (GUI), through which collected data
+                        could be visually
+                        represented on graphs in order to determine the relation between different variables. Moreover,
+                        the data collected by
+                        the prototype is stored in a Google Spreadsheet and can then be analyzed by the R programming
+                        language to obtain the
+                        p-value and demonstrate that there is a relationship between the variables. After correcting
+                        testing errors, the
+                        prototype showed positive results: in a 15-minute period, the CO2 concentration rose from 438
+                        ppm to 1004 ppm, with
+                        an increase in temperature from 22.3 °C to 27.4 °C and a drop in the soil moisture from 56.39%
+                        to 54.71%.<br>
+                        A linear
+                        regression analysis performed in R Studio revealed the significance of the relationship between
+                        the increase in
+                        temperature and the decrease in soil moisture, with a p-value of less than 2.0 * 10-16. By the
+                        end of this project, many
+                        conclusions were drawn, such as the importance of choosing acrylic as our box’s raw material and
+                        the importance of
+                        applying some potential solutions, such as reducing CO2 levels using Direct Air Capture
+                        systems.
                     </p>
-                    <a href="#" target="_blank">View
+                    <a href="https://drive.google.com/file/d/13pVoYxOgi7qEdUISaFSAjJXC5nPc4hhH/view?usp=share_link"
+                        target="_blank">View
                         Project's Poster</a>
                 </div>
             </div>
@@ -177,8 +214,9 @@
         <div class="max-width">
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">XYZ</div>
-                    <p> This is a slogan!</p>
+                    <div class="text">Detecting the Effect of CO2 Level elevation on Temperature and Soil Moisture
+                        Content</div>
+                    <p> "When the well is dry they know the worth of water." (Benjamin Franklin)</p>
                     <hr>
                     <p class="note">* Information listed on this website is accurate and representative of the person
                         mentioned. However, some discrepancies
